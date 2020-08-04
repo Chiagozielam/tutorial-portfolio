@@ -1,0 +1,78 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  display: flex;
+  background-color: white;
+  font-size: 18px;
+}
+nav p {
+  margin-left: 10px;
+  font-weight: bold;
+  font-size: 20px;
+}
+nav ul {
+  margin-left: 50%;
+}
+nav ul li {
+  display: inline;
+  margin-left: 20px;
+  transition: all 0.3s;
+}
+nav ul li:hover {
+  background-color: orangered;
+  padding: 10px;
+}
+nav ul li:hover a {
+  color: white;
+}
+nav ul li a {
+  text-decoration: none;
+  color: rgb(66, 66, 66);
+}
+.intro-box {
+  display: flex;
+  background-color: #2832c2;
+  height: 80vh;
+  border-bottom-left-radius: 30%;
+}
+.left-intro-box-container {
+  flex: 3;
+  padding-left: 10%;
+  padding-top: 5%;
+}
+.right-intro-box-container {
+  flex: 2;
+}
+.left-intro-box-container h1 {
+  font-size: 40px;
+  color: white;
+}
+.left-intro-box-container p {
+  font-size: 22px;
+  width: 60%;
+  color: rgb(204, 204, 204);
+}
+.left-intro-box-container button {
+  height: 50px;
+  width: 250px;
+  font-size: 18px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.4s;
+}
+.left-intro-box-container button:hover {
+  background-color: orangered;
+  color: white;
+  height: 80px;
+  width: 300px;
+}
+#potrait-image {
+  width: 400px;
+  height: 400px;
+  margin-top: 40px;
+  border-radius: 10px;
+}
